@@ -40,7 +40,14 @@ class UsersController < ApplicationController
   # POST /users
   # POST /users.json
   def create
-    UsersWorker.perform_async
+    CromeWorker.perform_async
+    CromeWorker.perform_async
+    CromeWorker.perform_async
+    CromeWorker.perform_async
+    FirefoxWorker.perform_async
+    FirefoxWorker.perform_async
+    FirefoxWorker.perform_async
+    FirefoxWorker.perform_async
     #Helper.test
     @user = User.new(params[:user])
 

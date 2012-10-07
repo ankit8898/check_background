@@ -1,0 +1,53 @@
+[0.000][INFO]:      ChromeDriver 21.0.1180.4 /usr/local/bin/chromedriver
+[0.253][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chrome.detach": true,
+   "chrome.extensions": [  ],
+   "chrome.profile": "UEsDBBQAAAAIABEyR0EQDHutRQAAAE0AAAATAAAARGVmYXVsdC9QcmVmZXJlbmNlc6tWSskvz8vJT0xRsqpWKijKzy0oiU/LL...",
+   "chromeOptions": {
+      "detach": true,
+      "extensions": [  ],
+      "profile": "UEsDBBQAAAAIABEyR0EQDHutRQAAAE0AAAATAAAARGVmYXVsdC9QcmVmZXJlbmNlc6tWSskvz8vJT0xRsqpWKijKzy0oiU/LL..."
+   },
+   "cssSelectorsEnabled": true,
+   "javascriptEnabled": true,
+   "nativeEvents": false,
+   "platform": "ANY",
+   "rotatable": false,
+   "takesScreenshot": false,
+   "version": ""
+}
+
+[0.255][INFO]:      Using named testing interface
+[1.454][INFO]:      Connected to Chrome successfully. Version: 20.0.1132.57
+[1.461][FINE]:      Command received (/session/8dbf518bb5849d4b1591f4e591a83146)
+[1.461][FINE]:      Command finished (/session/8dbf518bb5849d4b1591f4e591a83146) with response {
+   "sessionId": "8dbf518bb5849d4b1591f4e591a83146",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "21.0.1180.4",
+      "chrome.nativeEvents": false,
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "linux",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "20.0.1132.57",
+      "webStorageEnabled": true
+   }
+}
+
+[1.463][FINE]:      Command received (/session/8dbf518bb5849d4b1591f4e591a83146/url) with params {
+   "url": "http://www.nanostudentoftheyear.com/home.php#slide8"
+}
+
+[1.463][FINER]:     Waiting for all views to stop loading...
+[1.464][FINER]:     Done waiting for all views to stop loading
